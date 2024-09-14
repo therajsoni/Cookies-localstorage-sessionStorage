@@ -1,0 +1,12 @@
+// Step 1: Store data in localStorage
+localStorage.setItem('username', 'JohnDoe');
+
+// Step 2: Retrieve data from localStorage
+let username = localStorage.getItem('username');
+console.log(username); // Output: JohnDoe
+
+// Step 3: Remove data from localStorage
+localStorage.removeItem('username');
+
+// Step 4: Clear all localStorage data
+localStorage.clear();

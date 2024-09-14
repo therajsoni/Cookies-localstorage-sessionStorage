@@ -1,0 +1,12 @@
+// Step 1: Store data in sessionStorage
+sessionStorage.setItem('sessionID', 'abc123');
+
+// Step 2: Retrieve data from sessionStorage
+let sessionID = sessionStorage.getItem('sessionID');
+console.log(sessionID); // Output: abc123
+
+// Step 3: Remove data from sessionStorage
+sessionStorage.removeItem('sessionID');
+
+// Step 4: Clear all sessionStorage data
+sessionStorage.clear();
